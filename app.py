@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Modeli yükle
-model = joblib.load("emlak_deger_modeli.pkl")
+model = joblib.load("emlak_deger_modeli_uyumlu.pkl")
 
 st.title("🏡 Emlak Değer Tahmin Uygulaması")
 
